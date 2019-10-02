@@ -134,8 +134,65 @@ h1, h2, h3, h4, h5 {
  }
 .copy{
 	text-align: center;
+	margin-top: 40px;
 }
 .text{
 	line-height: 30px;
 }
- 
+
+.outlay, .outlay2, .outlay3{
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.marketing, .design, .ux, .web, .ios, .android{
+	border: 1px solid black;
+	margin: 15px;
+	padding:10px;
+	background-color: lightgray;
+	
+}
+.learn{
+	border: 1px solid black;
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 2px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: white;
+	height: 30px;
+}
+
+.outlay{
+	margin-top: 18px;
+}
+
+.lower-section{
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+services-info-img{
+	margin: 10px 15px 15px 20px;
+}
+.facts{
+	
+	margin: 10px 50px 50px 15px;
+	
+}
+
+.listings{
+	margin-top: 25px;
+	list-style: square;
+}
+
+.services{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.services-header-img{
+	margin-top: 15px;
+}
